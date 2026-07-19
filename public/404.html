@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Página No Encontrada | Galerias Muebles y Decoraciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --color-white: #FFFFFF;
+        --color-black: #0A0A0A;
+        --color-gray-medium: #888888;
+        --color-gray-soft: #F2F2F2;
+        --color-border: #E8E8E8;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--color-white);
+        color: var(--color-black);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        text-align: center;
+      }
+      .container {
+        max-width: 520px;
+        width: 100%;
+        border: 1px solid var(--color-border);
+        padding: 56px 32px;
+      }
+      .error-code {
+        font-size: clamp(76px, 18vw, 120px);
+        font-weight: 300;
+        line-height: 1;
+        color: var(--color-black);
+        margin-bottom: 16px;
+        font-family: 'Cormorant Garamond', serif;
+      }
+      .title {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 34px;
+        font-weight: 300;
+        margin-bottom: 14px;
+      }
+      .message {
+        font-size: 13px;
+        color: var(--color-gray-medium);
+        line-height: 1.8;
+        margin-bottom: 32px;
+        font-weight: 300;
+      }
+      .btn {
+        display: inline-block;
+        background-color: var(--color-black);
+        color: var(--color-white);
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        padding: 16px 32px;
+        border: 1px solid var(--color-black);
+        transition: all 0.3s ease;
+      }
+      .btn:hover {
+        background-color: var(--color-white);
+        color: var(--color-black);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="error-code">404</div>
+      <h1 class="title">Pieza No Encontrada</h1>
+      <p class="message">
+        Lo sentimos, la página que buscas no existe o ha sido trasladada. Puedes volver a nuestra colección principal para seguir explorando.
+      </p>
+      <a href="/eric_diaz/" class="btn">Volver a la Tienda</a>
+    </div>
+  </body>
+</html>

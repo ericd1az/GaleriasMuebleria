@@ -1,0 +1,24 @@
+{
+  "provider": "Coaster Furniture",
+  "providerKey": "coaster",
+  "source": "https://www.coasterfurniture.com",
+  "generatedAt": "2026-07-11T02:55:17.026Z",
+  "previousScrapedAt": "2026-07-11T02:54:02.742Z",
+  "output": "data\\imports\\coaster-products.json",
+  "summary": {
+    "mode": "partial",
+    "scopedCategories": [
+      "Bedroom"
+    ],
+    "scrapedProducts": 18,
+    "newProducts": [],
+    "updatedProducts": [],
+    "reactivatedProducts": [],
+    "inactiveProducts": [],
+    "unchangedProducts": 18,
+    "carriedProducts": 1878,
+    "activeProducts": 1896,
+    "inactiveProductsTotal": 0,
+    "storedProducts": 1896
+  }
+}
